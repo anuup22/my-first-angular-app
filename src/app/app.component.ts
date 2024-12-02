@@ -9,4 +9,9 @@ import { MyNewComponentComponent } from "./my-new-component/my-new-component.com
 })
 export class AppComponent {
   title = 'my-first-angular-app';
+  message = 'Hello from Angular!';
+
+  changeMessage() {
+    this.message = 'You have clicked the button!';
+  }
 }
